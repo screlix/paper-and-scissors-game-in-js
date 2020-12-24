@@ -1,0 +1,132 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: rgb(6, 6, 89);
+    font-family: poppins, sans-serif;
+}
+header{
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+    color: white;
+}
+span{
+    font-weight: bold;
+    font-size: 22px;
+    text-align: center;
+    flex:.4;
+}
+h2{
+    font-size: 27px;
+}
+div{
+    margin-top: 100px;
+    color:white;
+    font-size: 40px;
+    font-weight: 600;
+    text-align: center;
+    margin-bottom: 80px;
+}
+.images{
+   text-align: center;
+   display: none;
+}
+.images img{
+    width: 250px;
+    margin: 0 140px;
+}
+.images img:nth-of-type(1){
+    transform:scaleX(-1);
+}
+
+#fbtn, .buttonsCol button{
+    /* margin: auto; */
+    appearance: none;
+    border: none;
+    outline: none;
+    padding: 12px;
+    width: 100px;
+    /* text-align: center; */
+    border-radius: 2px;
+    font-weight: 400;
+    background-color: rgb(25, 123, 25);
+    color:white;
+    font-size: 14px;
+    cursor: pointer;
+}
+#fbtn{
+    margin:auto;
+    display: flex;
+    /* display: none; */
+
+}
+.buttonsCol{
+    display:flex;
+    justify-content: center;
+    margin: auto;
+    display: none;
+}
+.buttonsCol button{
+    text-align: center;
+    margin:0 80px;
+
+}
+
+
+@keyframes ani{
+    0%, 50%, 100%{
+        transform: translateY(-50px) scaleX(-1);
+    }
+    25%,75%{
+        transform: translateY(0px) scaleX(-1);
+    }
+}
+@keyframes ani2{
+    0%, 50%, 100%{
+        transform: translateY(-50px);
+    }
+    25%,75%{
+        transform: translateY(0px);
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
